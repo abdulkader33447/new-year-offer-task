@@ -89,3 +89,44 @@
     color: rgba(7, 2, 17, 1);
     margin-bottom: 48px;
 }
+/* party section start */
+.party{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
+    width: 1320px;
+
+    margin: 10% auto;
+ padding: 68px 108px;
+    font-family: "Merriweather", serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.item-container{
+    display: flex;
+    justify-content: start;
+    color: #fff;
+    
+}
+.party-title{
+    font-size: 64px;
+    font-weight: 900;
+    
+}
+.party-description{
+    font-size: 18px;
+    font-weight: 400;
+}
+.join{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.div{
+    background-color: olivedrab;
+    width: 500px;
+    padding:20px;
+}
+.party-image{
+    align-items:center;
+}
