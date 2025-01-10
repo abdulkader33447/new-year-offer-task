@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inter-font {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+/* banner style */
+/* .header{
+    width: 70%;
+    align-items: center;
+} */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("../images/Banner\ Image.png");
+    height: 600px;
+    width: 1320px;
+    margin: 50px auto;
+    border-radius: 16px;
+    color: #fff;
+    font-family: "Merriweather", serif;
+    text-align: center;
+    
+    /* text-align: center; */
+}
+
+.subtitle {
+    font-size: 32px;
+    /* padding: 16px; */
+}
+
+/* background:linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),url("../images/Banner\ Image.png"); */
+
+
+.title {
+    /* color: rgb(255, 255, 255); */
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    width: 632px;
+    /* padding-top: 16px; */
+    /* text-align: center; */
+
+
+
+    /* font-family: Merriweather; */
+}
+
+
+/* section */
+.discount {
+    width: 802.9px;
+    height: 806px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.off h1 {
+    font-weight: bold;
+    font-size: 88px;
+    color: #ff0000;
+    /* font-family: inter; */
+    margin-top: 124px;
+    margin-bottom: 48px;
+
+}
+
+.off h4 {
+    font-size: 24px;
+    color: #ff0000;
+    font-weight: 500;
+    line-height: 29px;margin-bottom: 19px;
+    /* row-gap: 29px; */
+}
+
+.off h2 {
+    font-size: bold;
+    font-size: 48px;
+    color: rgba(7, 2, 17, 1);
+    margin-bottom: 48px;
+}
